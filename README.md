@@ -2,6 +2,20 @@
 Repositório para as aulas referentes ao Cobra CLI
 
 
+## Inicialização banco de dados
+
+Criar a tabela no banco de dados
+
+```bash
+
+wander@bsnote283:~/pos-golang-cobra-cli$ sqlite3 data.db
+SQLite version 3.37.2 2022-01-06 13:25:41
+Enter ".help" for usage hints.
+sqlite> create table categories (id string, name string, description string);
+sqlite> 
+
+```
+
 
 # Anotações
 O Cobra CLI tem uma integração nativa com o Viper
